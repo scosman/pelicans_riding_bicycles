@@ -4,19 +4,19 @@ This is a collection of the best SVG images of pelicans riding bicycles. I've co
 
 ## Pelican Riding a Bicycle #1
 
-![Pelican Riding a Bicycle #1](pelican_riding_bycicle.svg)
+![Pelican Riding a Bicycle #1](pelican_riding_bicycle.svg)
 
 ## Pelican Riding a Bicycle #2
 
-![Pelican Riding a Bicycle #2](pelican_riding_bycicle_2.svg)
+![Pelican Riding a Bicycle #2](pelican_riding_bicycle_2.svg)
 
 ## Pelican Riding a Bicycle #3
 
-![Pelican Riding a Bicycle #3](pelican_riding_bycicle_3.svg)
+![Pelican Riding a Bicycle #3](pelican_riding_bicycle_3.svg)
 
 ## Pelican Riding a Bicycle #4
 
-![Pelican Riding a Bicycle #4](pelican_riding_bycicle_4.svg)
+![Pelican Riding a Bicycle #4](pelican_riding_bicycle_4.svg)
 
 ## About
 
