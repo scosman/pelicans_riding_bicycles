@@ -21,3 +21,5 @@ This is a collection of the best SVG images of pelicans riding bicycles. I've co
 ## About
 
 Curated by the PRBEC (Pelicans Riding Bicycles Enthusiasts Club).
+
+![PRBEC Footer](footer.png)
