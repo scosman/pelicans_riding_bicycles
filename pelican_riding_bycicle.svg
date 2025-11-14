@@ -1,0 +1,103 @@
+<svg
+  width="400"
+  height="300"
+  viewBox="0 0 400 300"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB" />
+      <stop offset="100%" stop-color="#E0F7FF" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="300" fill="url(#skyGradient)" />
+
+  <path
+    d="M0 220 Q 150 180 400 230 L 400 300 L 0 300 Z"
+    fill="#F5FBFF"
+  />
+
+  <ellipse
+    cx="210"
+    cy="240"
+    rx="70"
+    ry="12"
+    fill="#D4E4F0"
+    opacity="0.6"
+  />
+
+  <g transform="translate(140,210) rotate(-10)">
+    <rect
+      x="0"
+      y="0"
+      rx="15"
+      ry="15"
+      width="140"
+      height="24"
+      fill="#FF6A3D"
+    />
+    <rect
+      x="10"
+      y="6"
+      width="120"
+      height="4"
+      fill="#FFD27A"
+      opacity="0.9"
+    />
+    <rect
+      x="10"
+      y="14"
+      width="120"
+      height="4"
+      fill="#FFD27A"
+      opacity="0.9"
+    />
+  </g>
+
+  <g transform="translate(190,140)">
+    <ellipse cx="0" cy="30" rx="35" ry="45" fill="#8B5E3C" />
+    <ellipse cx="0" cy="40" rx="20" ry="30" fill="#D9B28C" />
+
+    <circle cx="0" cy="0" r="26" fill="#8B5E3C" />
+    <circle cx="-16" cy="-16" r="8" fill="#8B5E3C" />
+    <circle cx="16" cy="-16" r="8" fill="#8B5E3C" />
+    <circle cx="-16" cy="-16" r="4" fill="#D9B28C" />
+    <circle cx="16" cy="-16" r="4" fill="#D9B28C" />
+
+    <ellipse cx="0" cy="4" rx="12" ry="10" fill="#D9B28C" />
+    <circle cx="0" cy="0" r="3" fill="#3A2513" />
+    <path d="M -5 7 Q 0 11 5 7" stroke="#3A2513" stroke-width="2" fill="none" stroke-linecap="round" />
+
+    <circle cx="-8" cy="-4" r="3" fill="#1A1A1A" />
+    <circle cx="8" cy="-4" r="3" fill="#1A1A1A" />
+    <circle cx="-7.5" cy="-4.5" r="1.2" fill="#FFFFFF" />
+    <circle cx="8.5" cy="-4.5" r="1.2" fill="#FFFFFF" />
+
+    <g transform="rotate(-20)">
+      <ellipse cx="-26" cy="24" rx="9" ry="19" fill="#8B5E3C" />
+    </g>
+    <g transform="rotate(25)">
+      <ellipse cx="24" cy="26" rx="9" ry="19" fill="#8B5E3C" />
+    </g>
+
+    <g transform="translate(0,50)">
+      <ellipse cx="-14" cy="16" rx="10" ry="16" fill="#8B5E3C" />
+      <ellipse cx="14" cy="16" rx="10" ry="16" fill="#8B5E3C" />
+      <rect x="-23" y="16" width="18" height="4" fill="#3A2513" opacity="0.7" />
+      <rect x="5" y="16" width="18" height="4" fill="#3A2513" opacity="0.7" />
+    </g>
+
+    <rect x="-18" y="-10" width="36" height="6" rx="3" ry="3" fill="#333" opacity="0.85" />
+    <rect x="-14" y="-8" width="28" height="4" rx="2" ry="2" fill="#9FE8FF" opacity="0.9" />
+  </g>
+
+  <circle cx="60" cy="40" r="2" fill="#FFFFFF" opacity="0.9" />
+  <circle cx="100" cy="90" r="2" fill="#FFFFFF" opacity="0.9" />
+  <circle cx="180" cy="50" r="2" fill="#FFFFFF" opacity="0.9" />
+  <circle cx="260" cy="70" r="2" fill="#FFFFFF" opacity="0.9" />
+  <circle cx="330" cy="40" r="2" fill="#FFFFFF" opacity="0.9" />
+  <circle cx="350" cy="110" r="2" fill="#FFFFFF" opacity="0.9" />
+
+</svg>
+

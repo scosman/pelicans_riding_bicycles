@@ -1,0 +1,74 @@
+<svg
+  width="300"
+  height="300"
+  viewBox="0 0 300 300"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect x="0" y="0" width="300" height="300" fill="white"/>
+  <line x1="40" y1="230" x2="260" y2="230" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+
+  <g transform="translate(60, 0)">
+    <rect x="40" y="210" width="110" height="8" rx="4" fill="#555" />
+    <circle cx="55" cy="230" r="16" fill="#222" />
+    <circle cx="55" cy="230" r="8" fill="#eee" />
+    <circle cx="145" cy="230" r="16" fill="#222" />
+    <circle cx="145" cy="230" r="8" fill="#eee" />
+    <rect x="137" y="150" width="6" height="60" rx="3" fill="#555" />
+    <rect x="125" y="145" width="30" height="6" rx="3" fill="#555" />
+  </g>
+
+  <g transform="translate(90, 0)">
+    <path
+      d="M40 185
+         C25 175, 20 165, 23 152
+         C26 139, 34 132, 39 134"
+      fill="none"
+      stroke="#A67C52"
+      stroke-width="6"
+      stroke-linecap="round"
+    />
+    <ellipse cx="60" cy="175" rx="22" ry="38" fill="#C89F72" />
+    <ellipse cx="64" cy="182" rx="13" ry="26" fill="#EBD3B0" />
+    <path
+      d="M52 190
+         L48 210
+         Q47 216 52 218
+         L65 218"
+      fill="#C89F72"
+    />
+    <path
+      d="M68 190
+         L72 210
+         Q73 216 68 218
+         L55 218"
+      fill="#C89F72"
+    />
+    <rect x="56" y="140" width="10" height="20" rx="5" fill="#C89F72" />
+    <ellipse cx="61" cy="128" rx="18" ry="16" fill="#C89F72" />
+    <ellipse cx="70" cy="130" rx="10" ry="7" fill="#EBD3B0" />
+    <circle cx="76" cy="130" r="2.3" fill="#222" />
+    <circle cx="58" cy="124" r="2.5" fill="#222" />
+    <circle cx="66" cy="124" r="2.5" fill="#222" />
+    <ellipse cx="58" cy="124" rx="4.5" ry="5.5" fill="rgba(0,0,0,0.08)" />
+    <ellipse cx="66" cy="124" rx="4.5" ry="5.5" fill="rgba(0,0,0,0.08)" />
+    <ellipse cx="52" cy="119" rx="4" ry="5" fill="#A67C52" />
+    <path
+      d="M71 134
+         Q74 137 71 140"
+      stroke="#333"
+      stroke-width="1.5"
+      fill="none"
+      stroke-linecap="round"
+    />
+    <path
+      d="M68 158
+         Q85 160 100 152
+         Q112 148 123 148"
+      fill="none"
+      stroke="#C89F72"
+      stroke-width="7"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>
+
