@@ -27,7 +27,7 @@
     opacity="0.6"
   />
 
-  <g transform="translate(140,210) rotate(-10)">
+  <g transform="translate(119,217) rotate(-10)">
     <rect
       x="0"
       y="0"
@@ -100,4 +100,3 @@
   <circle cx="350" cy="110" r="2" fill="#FFFFFF" opacity="0.9" />
 
 </svg>
-
