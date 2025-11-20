@@ -18,8 +18,10 @@ This is a collection of the best SVG images of pelicans riding bicycles. I've co
 
 ![Pelican Riding a Bicycle #4](pelican_riding_bicycle_4.svg)
 
-## About
+## About PRBEC
 
-Curated by the PRBEC (Pelicans Riding Bicycles Enthusiasts Club).
+Curated by the PRBEC: Pelicans Riding Bicycles Enthusiasts Club
+
+![PRBEC Logo](pelicans_riding_bicycles_enthusiasts_club.png)
 
 ![PRBEC Footer](footer.png)
