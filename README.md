@@ -20,8 +20,10 @@ This is a collection of the best SVG images of pelicans riding bicycles. I've co
 
 ## About PRBEC
 
-Curated by the PRBEC: Pelicans Riding Bicycles Enthusiasts Club
+Curated by the PRBEC (Pelicans Riding Bicycles Enthusiasts Club) and the CMC
 
 <img src="pelicans_riding_bicycles_enthusiasts_club.png" width="300"/>
+<img src="https://github.com/user-attachments/assets/04772da5-8cf3-4616-9dd0-c6696858cd96" width="300"/>
 
-![PRBEC Footer](footer.png)
+
+
