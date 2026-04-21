@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%">
+  
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7b54" />
+      <stop offset="50%" stop-color="#ffb26b" />
+      <stop offset="100%" stop-color="#ffd56b" />
+    </linearGradient>
+
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="30%" stop-color="#fff0a8" />
+      <stop offset="100%" stop-color="#ffcc00" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#006994" />
+      <stop offset="40%" stop-color="#008080" />
+      <stop offset="100%" stop-color="#002b5e" />
+    </linearGradient>
+
+    <linearGradient id="bicycleColor" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#cc0000" />
+      <stop offset="50%" stop-color="#ff3333" />
+      <stop offset="100%" stop-color="#990000" />
+    </linearGradient>
+    
+    <linearGradient id="bicycleDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#444" />
+      <stop offset="100%" stop-color="#111" />
+    </linearGradient>
+
+    <linearGradient id="pelicanFeathers" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5b041" />
+      <stop offset="70%" stop-color="#f39c12" />
+      <stop offset="100%" stop-color="#d68910" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="450" fill="url(#skyGrad)" />
+
+  <circle cx="800" cy="300" r="150" fill="url(#sunGrad)" /> <circle cx="800" cy="300" r="60" fill="#fff1b8" /> <path d="M 0 450 L 150 380 L 250 420 L 400 350 L 550 430 L 700 390 L 850 440 L 1000 410 L 1000 450 Z" fill="#8c584a" opacity="0.6"/> <path d="M 0 450 L 80 400 L 180 430 L 320 370 L 480 440 L 620 410 L 750 450 Z" fill="#5c3a21" opacity="0.4"/> <rect y="450" width="1000" height="250" fill="url(#roadGrad)" />
+
+  <path d="M 0 460 Q 100 450 200 460 T 400 460 T 600 460 T 800 460 T 1000 460" fill="none" stroke="#0099cc" stroke-width="3" opacity="0.6" />
+  <path d="M 0 480 Q 150 460 300 480 T 600 480 T 900 480 T 1000 470" fill="none" stroke="#00bfff" stroke-width="4" opacity="0.5" />
+
+  <path d="M 50 560 Q -20 450 80 470 Q 180 490 280 540 Z" fill="#e0f7fa" opacity="0.8" />
+  <path d="M 20 580 Q -40 470 60 490 Q 160 510 240 560 Z" fill="#ffffff" opacity="0.9" />
+  <path d="M 120 570 Q 50 430 160 480 Q 250 520 300 550 Z" fill="#b2ebf2" opacity="0.7" />
+  
+  <g id="bicycle-and-pelican" transform="translate(40, -20)">
+    
+    <path d="M 200 540 C 350 580 650 570 800 500 C 650 540 350 550 200 540 Z" fill="#001f3f" />
+
+    <path d="M 380 400 C 370 450 420 480 440 480 C 450 480 460 470 450 450 C 420 420 400 410 380 400 Z" fill="url(#pelicanFeathers)" stroke="#222" stroke-width="2" />
+    <path d="M 390 420 Q 400 430 410 420" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/> <path d="M 405 445 Q 415 455 425 445" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
+
+    <path d="M 300 370 C 200 350 120 280 150 220 C 170 180 200 200 200 230 C 200 260 170 280 220 310 C 260 330 280 340 310 360 Z" fill="url(#pelicanFeathers)" stroke="#222" stroke-width="3" />
+    
+    <path d="M 152 230 L 175 220" stroke="#222" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 165 260 L 195 240" stroke="#222" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 190 290 L 220 270" stroke="#222" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 225 320 L 255 300" stroke="#222" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 260 345 L 290 325" stroke="#222" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 148 215 C 150 200 160 200 165 210 Z" fill="#222" /> <path d="M 290 380 C 280 280 400 260 500 280 C 580 290 560 380 500 410 C 420 430 300 440 290 380 Z" fill="url(#pelicanFeathers)" />
+    <path d="M 320 390 C 380 430 480 410 520 380 C 480 390 380 400 320 390 Z" fill="#fdfefe" />
+    
+    <g fill="#222">
+      <path d="M 340 320 Q 355 305 370 320 Q 355 335 340 320 Z" /> <path d="M 348 320 Q 355 315 362 320 Q 355 325 348 320 Z" fill="#c0392b" /> <path d="M 390 290 Q 410 275 425 295 Q 410 315 390 290 Z" />
+      <path d="M 398 292 Q 410 285 418 295 Q 410 305 398 292 Z" fill="#c0392b" />
+      
+      <path d="M 440 310 Q 460 300 475 320 Q 455 340 440 310 Z" />
+      <path d="M 448 314 Q 460 308 468 320 Q 455 330 448 314 Z" fill="#c0392b" />
+      
+      <path d="M 370 350 Q 385 340 395 355 Q 380 370 370 350 Z" />
+      <circle cx="330" cy="355" r="7" />
+      <circle cx="410" cy="335" r="9" />
+      <circle cx="490" cy="350" r="8" />
+      <ellipse cx="495" cy="310" rx="12" ry="6" transform="rotate(20 495 310)" />
+      <ellipse cx="360" cy="290" rx="10" ry="5" transform="rotate(-15 360 290)" />
+      <ellipse cx="430" cy="275" rx="14" ry="6" transform="rotate(-5 430 275)" />
+    </g>
+
+    <path d="M 180 500 C 180 500 350 560 600 550 C 780 540 850 490 850 490 C 850 490 700 440 600 420 C 450 390 250 450 180 500 Z" fill="url(#bicycleDark)" />
+
+    <path d="M 200 480 C 250 440 450 380 620 410 C 750 430 840 480 840 480 C 840 480 700 510 580 520 C 400 530 200 480 200 480 Z" fill="url(#bicycleColor)" />
+    
+    <path d="M 250 470 C 400 430 550 420 750 460 L 780 470 C 600 440 400 450 250 470 Z" fill="#ffffff" /> <path d="M 300 485 C 450 455 600 450 720 480 L 700 485 C 550 465 400 470 300 485 Z" fill="#ffcc00" /> <path d="M 280 460 C 350 420 450 390 520 410 C 530 415 540 430 530 440 C 450 450 350 460 280 460 Z" fill="#222222" />
+    <path d="M 300 455 C 380 425 450 410 500 420" fill="none" stroke="#444" stroke-width="4" stroke-linecap="round"/> <path d="M 460 380 C 480 430 520 460 550 460 C 570 460 560 440 540 420 C 510 390 490 370 460 380 Z" fill="url(#pelicanFeathers)" stroke="#222" stroke-width="2" />
+    <path d="M 490 400 L 515 425" stroke="#222" stroke-width="5" stroke-linecap="round"/> <path d="M 505 440 L 535 445" stroke="#222" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 540 460 Q 545 465 550 460 Q 555 465 560 460 Q 565 465 570 455" fill="none" stroke="#fdfefe" stroke-width="6" stroke-linecap="round"/> <path d="M 480 300 C 540 280 620 280 640 300 C 660 320 630 330 610 310 C 570 280 520 300 480 300 Z" fill="url(#pelicanFeathers)" stroke="#222" stroke-width="2" />
+    <path d="M 520 290 Q 540 285 550 295" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/> <path d="M 580 295 Q 600 290 610 305" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
+
+    <path d="M 490 270 C 530 280 540 320 520 350 C 500 320 480 300 490 270 Z" fill="#fdfefe" />
+
+    <circle cx="530" cy="230" r="50" fill="url(#pelicanFeathers)" />
+    
+    <path d="M 490 190 L 480 130 L 525 185 Z" fill="url(#pelicanFeathers)" stroke="#222" stroke-width="2" /> <path d="M 493 185 L 487 145 L 515 183 Z" fill="#fdfefe" /> <path d="M 545 185 L 570 135 L 570 195 Z" fill="url(#pelicanFeathers)" stroke="#222" stroke-width="2" /> <path d="M 548 185 L 565 150 L 563 190 Z" fill="#fdfefe" /> <ellipse cx="555" cy="245" rx="30" ry="20" fill="#fdfefe" />
+    <ellipse cx="510" cy="240" rx="20" ry="15" fill="#fdfefe" />
+    
+    <path d="M 515 185 Q 525 200 520 215" fill="none" stroke="#222" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 540 185 Q 535 200 540 210" fill="none" stroke="#222" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 485 220 Q 500 225 505 210" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 575 230 Q 560 220 550 210" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
+
+    <path d="M 550 240 Q 590 230 610 235" fill="none" stroke="#fff" stroke-width="2" />
+    <path d="M 555 245 Q 600 245 615 250" fill="none" stroke="#fff" stroke-width="2" />
+    <path d="M 550 250 Q 590 260 605 270" fill="none" stroke="#fff" stroke-width="2" />
+    
+    <path d="M 510 240 Q 470 230 450 235" fill="none" stroke="#fff" stroke-width="2" />
+    <path d="M 505 245 Q 460 245 445 250" fill="none" stroke="#fff" stroke-width="2" />
+    
+    <polygon points="535,235 550,235 542,245" fill="#e74c3c" /> <path d="M 542 245 Q 542 255 530 255 M 542 245 Q 542 255 555 255" fill="none" stroke="#222" stroke-width="2" /> <path d="M 535 255 Q 542 265 550 255 Z" fill="#ff9999" /> <path d="M 495 205 C 510 195 560 195 575 205 L 580 225 C 560 235 510 235 490 225 Z" fill="#111" /> <path d="M 500 210 C 510 205 530 205 535 210 L 530 220 C 520 225 510 225 500 220 Z" fill="#00d2ff" /> <path d="M 540 210 C 550 205 565 205 570 210 L 575 220 C 565 225 550 225 540 220 Z" fill="#00d2ff" /> <path d="M 480 215 L 495 215 M 575 215 L 585 215" stroke="#333" stroke-width="6" /> <path d="M 505 212 L 525 215" stroke="#ffffff" stroke-width="2" stroke-linecap="round" /> <path d="M 545 212 L 565 215" stroke="#ffffff" stroke-width="2" stroke-linecap="round" /> <path d="M 640 400 L 620 330 L 640 320 L 660 395 Z" fill="#333" />
+    
+    <path d="M 610 410 L 640 370 L 680 380 L 690 420 Z" fill="#e74c3c" />
+    
+    <path d="M 600 320 L 680 335" stroke="#111" stroke-width="12" stroke-linecap="round" />
+    <path d="M 590 320 C 590 310 600 300 610 310" stroke="#cc0000" stroke-width="8" stroke-linecap="round" fill="none" /> <path d="M 670 335 C 670 325 680 315 690 325" stroke="#cc0000" stroke-width="8" stroke-linecap="round" fill="none" /> <path d="M 660 380 C 660 320 720 340 730 390 Z" fill="#a0e6ff" opacity="0.6" />
+    <path d="M 670 380 C 670 330 710 350 720 390 Z" fill="#ffffff" opacity="0.4" />
+
+    <circle cx="635" cy="320" r="15" fill="url(#pelicanFeathers)" stroke="#222" stroke-width="2"/>
+    <path d="M 625 320 Q 635 330 645 320" fill="none" stroke="#222" stroke-width="2"/> <path d="M 628 313 Q 635 323 642 313" fill="none" stroke="#222" stroke-width="2"/> <path d="M 720 480 Q 800 450 880 500 Q 820 540 750 510 Z" fill="#ffffff" opacity="0.9" />
+    <path d="M 650 510 Q 750 490 850 540 Q 750 560 680 530 Z" fill="#e0f7fa" opacity="0.8" />
+    <path d="M 550 520 C 650 520 750 570 800 580 C 700 600 600 550 550 520 Z" fill="#80deea" opacity="0.7" />
+
+    <path d="M 100 250 L 250 250" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+    <path d="M 50 300 L 180 300" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.5" />
+    <path d="M 150 180 L 350 180" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.7" />
+    <path d="M -20 350 L 120 350" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.4" />
+    
+  </g> <circle cx="850" cy="560" r="15" fill="#ffffff" opacity="0.8" />
+  <circle cx="880" cy="530" r="10" fill="#ffffff" opacity="0.6" />
+  <circle cx="810" cy="580" r="12" fill="#ffffff" opacity="0.9" />
+  <circle cx="910" cy="570" r="8" fill="#ffffff" opacity="0.7" />
+  <circle cx="780" cy="550" r="20" fill="#ffffff" opacity="0.8" />
+
+  <circle cx="300" cy="620" r="25" fill="#ffffff" opacity="0.7" />
+  <circle cx="350" cy="600" r="15" fill="#ffffff" opacity="0.6" />
+  <circle cx="250" cy="630" r="18" fill="#ffffff" opacity="0.8" />
+  
+  <path d="M 400 580 Q 500 550 600 590 T 800 620" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.5" />
+  <path d="M 200 620 Q 350 590 500 640 T 700 660" fill="none" stroke="#e0f7fa" stroke-width="6" stroke-linecap="round" opacity="0.4" />
+  
+  <rect x="0" y="0" width="1000" height="700" fill="none" stroke="#1a1a1a" stroke-width="16" />
+
+</svg>
