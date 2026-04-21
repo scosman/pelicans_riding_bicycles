@@ -20,7 +20,7 @@ This is a collection of the best SVG images of pelicans riding bicycles. I've co
 
 ## Pelican Riding a Bicycle #5
 
-![Pelican Riding a Bicycle #5](pelican_riding_bicycle_5.svg)
+<img src="pelican_riding_bicycle_5.svg" width="400"/>
 
 ## About PRBEC
 
