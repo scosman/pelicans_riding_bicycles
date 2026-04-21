@@ -56,7 +56,7 @@ Photorealism is permitted but not required. Abstract, impressionistic, cubist, a
 ## PR Process
 
 1. Fork the repository.
-2. Add your pelican as `pelican_riding_bicycle_N.svg` where N is the next available integer.
+2. Add your pelican to the `pelicans_riding_bicycles/` directory as `pelican_riding_bicycle_N.svg` where N is the next available integer.
 3. Update `README.md` with a new section following the existing format. Feel free to match the tone.
 4. Open a PR. In the description, attest to your pelican credential (see above) and briefly describe the provenance and artistic intent of your pelican.
 5. A PRBEC maintainer will review. Review timelines are best-effort and governed by the migratory schedule of the reviewer.
