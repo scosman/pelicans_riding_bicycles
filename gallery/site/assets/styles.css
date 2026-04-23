@@ -422,9 +422,13 @@ main {
   text-wrap: balance;
 }
 
-/* --- Home: seal ----------------------------------------------------------- */
+/* --- Home: seals ---------------------------------------------------------- */
 
-.seal {
+.seals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(2.5rem, 6vh, 4rem);
   text-align: center;
   padding-block: var(--section-gap);
   border-top: 1px solid var(--rule);
@@ -432,15 +436,28 @@ main {
   margin: 0 auto;
 }
 
-.seal img {
-  margin: 0 auto 1rem;
+.seals__item {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.seals__item img {
+  display: block;
   width: 200px;
   max-width: 60vw;
   height: auto;
   opacity: 0.92;
 }
 
-.seal__caption {
+.seals__item--wide img {
+  width: 300px;
+  max-width: 80vw;
+}
+
+.seals__caption {
   font-size: var(--fs-tiny);
   letter-spacing: 0.22em;
   text-transform: uppercase;

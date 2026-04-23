@@ -31,7 +31,14 @@ module.exports = [
     plate: "V",
     title: "Pelican Riding a Bicycle, Fifth Iteration",
     file: "pelicans_riding_bicycles/pelican_riding_bicycle_5.svg",
-    note: "The most recent accession. Departs in technique from earlier specimens while preserving the corpus's foundational commitments. Approved for inclusion by the Curatorial Committee after the customary period of deliberation.",
+    note: "Departs in technique from earlier specimens while preserving the corpus's foundational commitments. Approved for inclusion by the Curatorial Committee after the customary period of deliberation.",
     metadata: "SVG · Vector · Anonymous attribution · Accessioned 2025",
+  },
+  {
+    plate: "VI",
+    title: "Pelican Riding a Bicycle, Sixth Iteration (Mountain Variant)",
+    file: "pelicans_riding_bicycles/pelican_riding_bicycle_6.svg",
+    note: "The most recent accession. The committee notes the specimen's distinctive personal styling — the pierced beak, the leather jacket — and the consequent compromise to its aerial faculties. The mount, in keeping with the specimen's evident disposition, is a mountain bicycle. The corpus is broadened.",
+    metadata: "SVG · Vector · Attribution: Y. Samlan · Accessioned 2026",
   },
 ];
