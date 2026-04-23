@@ -38,7 +38,14 @@ module.exports = [
     plate: "VI",
     title: "Pelican Riding a Bicycle, Sixth Iteration (Mountain Variant)",
     file: "pelicans_riding_bicycles/pelican_riding_bicycle_6.svg",
-    note: "The most recent accession. The committee notes the specimen's distinctive personal styling — the pierced beak, the leather jacket — and the consequent compromise to its aerial faculties. The mount, in keeping with the specimen's evident disposition, is a mountain bicycle. The corpus is broadened.",
+    note: "The committee notes the specimen's distinctive personal styling — the pierced beak, the leather jacket — and the consequent compromise to its aerial faculties. The mount, in keeping with the specimen's evident disposition, is a mountain bicycle. The corpus is broadened.",
     metadata: "SVG · Vector · Attribution: Y. Samlan · Accessioned 2026",
+  },
+  {
+    plate: "VII",
+    title: "Pelican Riding a Bicycle in Space",
+    file: "pelicans_riding_bicycles/pelican_riding_bicycle_7.svg",
+    note: "The most recent accession. The committee finds, after due consideration, that a pelican remains a pelican regardless of the gravitational regime in which it is rendered. The same is held to be true of the bicycle. The corpus's operational theatre is hereby extended from terrestrial to orbital and deep-space conditions.",
+    metadata: "SVG · Vector · Attribution: J. Deamer · Accessioned 2026",
   },
 ];
