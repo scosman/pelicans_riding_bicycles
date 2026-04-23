@@ -1,0 +1,9 @@
+<article class="specimen" id="specimen-{{ specimen.plate | lower }}">
+  <p class="specimen__plate">Specimen No.&nbsp;{{ specimen.plate }}</p>
+  <figure class="specimen__figure" role="img" aria-label="{{ specimen.title }}">
+    {{ specimen.file | inlineSvg | safe }}
+  </figure>
+  <h3 class="specimen__title">{{ specimen.title }}</h3>
+  <p class="specimen__note">{{ specimen.note }}</p>
+  <p class="specimen__meta">{{ specimen.metadata }}</p>
+</article>

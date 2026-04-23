@@ -1,0 +1,5 @@
+.specs_skill_state/
+node_modules/
+_site/
+.DS_Store
+specs/

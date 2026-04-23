@@ -1,0 +1,38 @@
+---
+layout: base.njk
+title: null
+description: A standards body for pelicans riding bicycles.
+---
+<section class="masthead">
+  <h1 class="masthead__title">{{ site.name }}</h1>
+  <p class="masthead__tagline">{{ site.tagline }}</p>
+</section>
+
+<section class="collection" aria-labelledby="collection-heading">
+  <h2 id="collection-heading">The Collection</h2>
+  <p class="collection__subtitle">Six specimens, presented in order of accession.</p>
+  {% for specimen in gallery %}
+    {% include "partials/specimen.njk" %}
+  {% endfor %}
+</section>
+
+<section class="curatorial-note" aria-labelledby="corpus-heading">
+  <h2 id="corpus-heading">On the Corpus</h2>
+  <p>
+    The collection assembled above is the result of an exhaustive comparative review undertaken by the Curatorial Committee. Hundreds of candidate works were considered; six were judged to meet the threshold for accession. The corpus is intentionally small. It is intended to be authoritative rather than comprehensive.
+  </p>
+  <p>
+    Submissions for accession review are accepted on a continuous basis. Those who believe they are in possession of a candidate specimen are warmly directed to the <a href="{{ '/contributing/' | url }}">Contributing</a> page, which sets out the prevailing accession procedure.
+  </p>
+</section>
+
+<section class="seals" aria-label="Institutional insignia">
+  <figure class="seals__item">
+    <img src="{{ '/assets/seal.png' | url }}" alt="The official seal of the Pelicans Riding Bicycles Enthusiasts Club" width="200">
+    <figcaption class="seals__caption">Official Seal of the Club</figcaption>
+  </figure>
+  <figure class="seals__item seals__item--wide">
+    <img src="https://github.com/user-attachments/assets/04772da5-8cf3-4616-9dd0-c6696858cd96" alt="The crest of the CMC" width="300">
+    <figcaption class="seals__caption">Crest of the CMC</figcaption>
+  </figure>
+</section>
