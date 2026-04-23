@@ -1,0 +1,20 @@
+<header class="site-header{% if page.url == '/' %} site-header--minimal{% endif %}">
+  {% if page.url != '/' %}
+  <div class="site-header__brand">
+    <p class="site-header__name">
+      <a href="{{ '/' | url }}">{{ site.name }}</a>
+    </p>
+    <p class="site-header__tagline">{{ site.tagline }}</p>
+  </div>
+  {% endif %}
+  <nav class="site-nav" aria-label="Primary">
+    <ul>
+      {% for item in site.nav %}
+        {% set isCurrent = (page.url == item.url) %}
+        <li>
+          <a href="{{ item.url | url }}"{% if isCurrent %} aria-current="page" class="is-current"{% endif %}>{{ item.label }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

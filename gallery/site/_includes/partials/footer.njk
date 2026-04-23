@@ -1,0 +1,18 @@
+<footer class="site-footer">
+  <nav class="site-footer__nav" aria-label="Secondary">
+    <ul>
+      {% for item in site.footerNav %}
+        <li>
+          {% if item.external %}
+            <a href="{{ item.url }}" rel="noopener" target="_blank">{{ item.label }}</a>
+          {% else %}
+            <a href="{{ item.url | url }}">{{ item.label }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <p class="site-footer__colophon">
+    &copy; {{ site.year }} {{ site.abbreviation }}. All rights &mdash; within reason &mdash; reserved.
+  </p>
+</footer>

@@ -1,0 +1,14 @@
+{
+  "name": "prbec-gallery",
+  "private": true,
+  "description": "The public-facing site of the Pelicans Riding Bicycles Enthusiasts Club.",
+  "scripts": {
+    "dev": "eleventy --serve --quiet",
+    "build": "eleventy",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it": "^14.1.0"
+  }
+}
